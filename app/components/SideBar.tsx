@@ -2,7 +2,7 @@ import { UserButton } from "@stackframe/stack";
 import { BarChart3, BarChart4, Package, Plus, Settings } from "lucide-react";
 import Link from "next/link";
 
-const SideBar = ({ currentPath = "/dashboard" }: { currentPath: String }) => {
+const SideBar = ({ currentPath = "/dashboard" }: { currentPath: string }) => {
   const navigation = [
     {
       name: "Dashboard",
