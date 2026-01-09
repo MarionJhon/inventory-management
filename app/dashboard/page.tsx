@@ -3,9 +3,11 @@ import SideBar from "../components/SideBar";
 import { getCurrentUser } from "@/lib/auth";
 import { TrendingUp } from "lucide-react";
 import ProductChart from "../components/ProductChart";
+import { redirect } from "next/navigation";
 
 const DashboardPage = async () => {
   const user = await getCurrentUser();
+  if (!user) redirect("/sign-in");
   const userId = user.id;
 
   const [totalProducts, lowStock, allProduct] = await Promise.all([
