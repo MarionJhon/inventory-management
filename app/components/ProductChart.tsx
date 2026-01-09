@@ -15,7 +15,6 @@ export interface ChartData {
 }
 
 const ProductChart = ({ data }: { data: ChartData[] }) => {
-  console.log(data);
   return (
     <div className="h-48 w-full">
       <ResponsiveContainer width="100%" height="100%">
