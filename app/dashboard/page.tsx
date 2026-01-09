@@ -62,7 +62,7 @@ const DashboardPage = async () => {
     const weekLabel = `${String(weekStart.getMonth() + 1).padStart(
       2,
       "0"
-    )}/${String(weekStart.getDate() + 1).padStart(2, "0")}`;
+    )}/${String(weekStart.getDate()).padStart(2, "0")}`;
 
     const weekProducts = allProduct.filter((product) => {
       const productDate = new Date(product.createdAt);
