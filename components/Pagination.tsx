@@ -56,7 +56,7 @@ const Pagination = ({
         className={`flex items-center px-3 py-2 text-sm font-medium rounded-lg ${
           currentPage <= 1
             ? "text-gray-400 cursor-not-allowed bg-gray-100"
-            : "text-gray-700 hover-bg-gray-100 bg-white border border-gray-300"
+            : "text-gray-700 hover:bg-gray-100 bg-white border border-gray-300"
         }`}
         aria-disabled={currentPage <= 1}
       >
