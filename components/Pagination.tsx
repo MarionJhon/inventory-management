@@ -76,7 +76,7 @@ const Pagination = ({
         return (
           <Link
             key={key}
-            href={"/"}
+            href={getPageUrl(pageNumber)}
             className={`px-3 py-2 text-sm font-medium rounded-lg ${
               isCurrentPage
                 ? "bg-purple-600 text-white"
