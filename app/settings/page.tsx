@@ -16,7 +16,7 @@ const SettingsPage = () => {
             </div>
           </div>
         </div>
-        <div className="max-x-6xl">
+        <div className="max-w-6xl">
           <div className="bg-white rounded-lg border border-gray-200 p-6">
             <AccountSettings fullPage />
           </div>
