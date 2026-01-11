@@ -80,7 +80,7 @@ const AddProductPage = async () => {
               </div>
               <div>
                 <label
-                  htmlFor="price"
+                  htmlFor="sku"
                   className="block text-sm font-medium text-gray-700 mb-2"
                 >
                   SKU (<span className="text-blue-400">optional</span>)
@@ -95,7 +95,7 @@ const AddProductPage = async () => {
               </div>
               <div>
                 <label
-                  htmlFor="quantity"
+                  htmlFor="lowStockAt"
                   className="block text-sm font-medium text-gray-700 mb-2"
                 >
                   Low Stock At (<span className="text-blue-400">optional</span>)
