@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Tech Stack
+
+- **[Next.js](https://nextjs.org)** - React framework for production
+- **[Stack Auth](https://stack-auth.com)** - Authentication solution
+- **[Prisma](https://www.prisma.io)** - Database ORM
+- **[PostgreSQL (Neon)](https://neon.tech)** - Serverless Postgres database
+- **[TypeScript](https://www.typescriptlang.org)** - Type-safe JavaScript
+
 ## Getting Started
 
 First, run the development server:
